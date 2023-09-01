@@ -1,0 +1,228 @@
+/* Global styles for larger screens */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+/* Global styles for larger screens */
+/* ... (previous CSS code) ... */
+
+/* Navigation bar styles */
+header {
+    background-color: #f42e8a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Adjust the font size */
+    padding: 10px 20px; /* Add padding to the links */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the links on hover */
+nav ul li a:hover {
+    background-color: #444;
+}
+
+/* ... (rest of your CSS) ... */
+
+/* header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+} */
+
+/* Hero section styles */
+.hero {
+    background-image: url('images/music1.jpg'); /* Add your background image */
+    background-size: cover; /* This ensures the image covers the entire container */
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* "Watch Videos" button styles */
+.btn {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Videos section styles */
+#videos {
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-container iframe {
+    margin: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* Adjust header and navigation styles for smaller screens */
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust hero section styles for smaller screens */
+    /* Make images within .hero responsive */
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+    .hero {
+        padding: 100px 0;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    /* Adjust "Watch Videos" button styles for smaller screens */
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    /* Adjust main content styles for smaller screens */
+    main {
+        padding: 10px;
+    }
+
+    /* Adjust videos section styles for smaller screens */
+    .video-container iframe {
+        margin: 5px;
+    }
+
+    /* Adjust footer styles for smaller screens */
+    footer {
+        padding: 10px;
+    }
+}
+/* ... (previous CSS code) ... */
+
+/* Booking links styles */
+.btn-book {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-book:hover {
+    background-color: #e64a19; /* Change color on hover */
+}
+
+/* ... (remaining CSS code) ... */
+/* Add this CSS code to your styles.css file or in a <style> tag in the HTML file */
+
+/* Style the icons */
+.address-icon {
+    margin-right: 10px; /* Add space between the icon and text */
+    font-size: 20px; /* Adjust the icon size */
+}
+
+/* Style the contact links */
+.address-link {
+    text-decoration: none; /* Remove underlines */
+    color: #333; /* Set the link color */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+/* Change link color on hover */
+.address-link:hover {
+    color: #ff5722; /* Change the link color on hover to a different color */
+}
+
+/* ... (rest of your CSS styles) ... */
